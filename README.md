@@ -96,6 +96,32 @@ source .venv/bin/activate
 python3 -m consumers.basic_consumer_case
 ```
 
+## Task 6: Custom Consumer and Producer
+In VS Code, open a NEW terminal in your root project folder. 
+Use the commands below to activate venv, and run the file as a module. 
+Windows Example:
+```shell
+venv\Scripts\activate
+py -m producers.basic_producer_uma
+```
+Mac/Linux Example:
+```zsh
+source .venv/bin/activate
+python3 -m consumers.basic_producer_uma
+```
+Creata another new terminal and activate venv folder
+
+Windows Example:
+```shell
+venv\Scripts\activate
+py -m producers.basic_producer_uma
+```
+
+Mac/Linux Example:
+```zsh
+source .venv/bin/activate
+python3 -m consumers.basic_producer_uma
+```
 ## Save Space
 To save disk space, you can delete the .venv folder when not actively working on this project.
 We can always recreate it, activate it, and reinstall the necessary packages later. 
