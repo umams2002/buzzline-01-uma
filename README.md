@@ -1,4 +1,4 @@
-# buzzline-01-case
+# buzzline-01-uma
 
 This project introduces streaming data. 
 The Python language includes generators - we'll use this feature to generate some streaming buzzline messages. 
